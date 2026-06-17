@@ -1,16 +1,15 @@
-Ledai
-1.00
-Arbata
-9.00
-Duona
-3.00
-Pica
-4.56
-Foccacia
-6.77
-Makaronai
-3.45
-Lazanija
-9.01
-Sriuba
-5.64
+1 Nemo Klounzuve 2 8.5 26 3
+2 Melyne MelynojiTanga 3 12 25 1
+3 Auksis AuksineZuvele 4 10 22 2
+4 Neonas NeonineTetra 1 3 24 15
+5 Skalis Skaliaras 2 15 27 4
+6 Gelyte Gupija 1 4 24 10
+7 Diskas Diskusas 3 18 28 2
+8 Molis Molis 2 6 25 8
+9 Barbus Barbusas 1 5 24 7
+10 Danis Danio 1 4 23 12
+11 Kardas Kardasuvis 2 7 25 6
+12 Ancis Ancistrusas 3 12 26 3
+13 Ramis Ramireze 1 6 27 4
+14 Arona Arowana 5 35 28 1
+15 Oskaras Oscar 4 30 27 2
