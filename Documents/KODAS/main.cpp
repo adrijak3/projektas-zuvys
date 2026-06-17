@@ -92,3 +92,49 @@ void redaguotiZuvi()
             return;}}
     cout<<"Zuvis nerasta"<<endl;
 }
+void pasalintiZuvi()
+{
+    int ieskomasId;
+
+    cout<<"Iveskite ID: ";
+    cin>>ieskomasId;
+
+    for(int i=0;i<zuvuSkaicius;i++)
+    {
+        if(zuvys[i].id==ieskomasId)
+        {
+            for(int j=i;j<zuvuSkaicius-1;j++)
+            {
+                zuvys[j]=zuvys[j+1];
+            }
+            zuvuSkaicius--;
+            cout<<"Pasalinta"<<endl;
+            return;
+        }
+
+    }
+
+    cout<<"Zuvis nerasta"<<endl;
+}
+void rodytiAtaskaita()
+{
+    int daugiausia = 0;
+    int maziausia = 0;
+    for(int i=1;i<zuvuSkaicius;i++)
+    {
+        if(zuvys[i].kiekis > zuvys[daugiausia].kiekis)
+        {
+            daugiausia=i;
+        }
+        if(zuvys[i].kiekis < zuvys[maziausia].kiekis)
+        {
+            maziausia=i;
+        }
+    }
+    cout<<"Daugiausia ir maziausia zuvu: " << endl;
+    cout<<"Daugiausia:"<<endl;
+    cout<<zuvys[daugiausia].vardas <<" " <<zuvys[daugiausia].kiekis <<endl;
+    cout<<endl;
+    cout<<"Maziausia:"<<endl;
+    cout<<zuvys[maziausia].vardas <<" " <<zuvys[maziausia].kiekis <<endl;
+}
