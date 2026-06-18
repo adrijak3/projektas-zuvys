@@ -33,5 +33,5 @@ Projekto aprašymas.
 
 ## Papildomų funkcijų aprašymas :
 Programa generuoja ataskaitą, kurioje pateikiama:
-- Daugiausiai/mažiausiai turimų žuvų.
-- Didžiausia/mažiausia žuvis pagal ilgį.
+- Daugiausiai turimų žuvų.
+- Mažiausiai turimų žuvų.
